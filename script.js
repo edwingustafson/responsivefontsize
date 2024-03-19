@@ -3,5 +3,4 @@ const handler = (event) => {
     document.getElementById('fontSize').textContent = window.getComputedStyle(document.body).getPropertyValue('font-size');
 };
 
-addEventListener('load', handler);
-addEventListener('resize', handler);
+['load', 'resize'].forEach(event => addEventListener(event, handler));

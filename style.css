@@ -1,0 +1,38 @@
+:root {
+    font-size: calc(1rem + 0.25vw);
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-weight: normal;
+    margin: 0.125vh 2vw;
+}
+
+body {
+    background-color: #f2f9f9;
+}
+
+code { font-size: 100%; }
+
+table {
+    border: solid 1px #000;
+}
+
+th {
+    border-bottom: solid 1px #000;
+}
+
+th, td {
+    padding: 0.5vw;
+}
+
+th.viewportWidth, td#viewportWidth {
+    border-right: solid 1px #000;
+    text-align: end;
+}
+
+h1 { font-size: 250%; }
+h2 { font-size: 200%; }
+h3 { font-size: 150%; }
+h4 { font-size: 125%; }
+
+p {
+    font-weight: normal;
+}
